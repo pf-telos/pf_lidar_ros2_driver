@@ -8,9 +8,7 @@ OMDxxx-R2300 Hardware >= 0.95, Firmware >= 0.97
 
 **Required platform:**  
 Ubuntu-22.04/ROS-Humble OR Ubuntu-24.04/ROS-Jazzy OR Ubuntu-24.04/ROS-Kilted
-
-Note: The ROS1 driver is available here: https://github.com/PepperlFuchs/pf_lidar_ros_driver
-  
+ 
 **Clone the repository:**  
 Clone the repository in the `src` folder of your ROS workspace
 ```
@@ -19,7 +17,7 @@ git clone https://github.com/PepperlFuchs/pf_lidar_ros2_driver.git
   
 **Install the missing dependencies:**  
 ```
-export ROS_DISTRO=foxy OR export ROS_DISTRO=galactic OR export ROS_DISTRO=humble OR export ROS_DISTRO=jazzy
+export ROS_DISTRO=humble OR export ROS_DISTRO=jazzy OR export ROS_DISTRO=kilted
 cd <path/to/workspace>
 rosdep update --include-eol-distros
 rosdep install --from-paths src --ignore-src --rosdistro=$ROS_DISTRO -y
