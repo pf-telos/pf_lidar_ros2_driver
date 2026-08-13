@@ -4,7 +4,7 @@
 
 **Prerequisites:**  
 OMDxxx-R2000 Hardware & Firmware >= 1.50 (No support of OBDxxx-R2000 devices)  
-OMDxxx-R2300 Hardware >= 0.95, Firmware >= 0.97
+OMDxxx-R2300 Hardware >= 0.95, Firmware >= 1.00
 
 **Required platform:**  
 Ubuntu-22.04/ROS-Humble OR Ubuntu-24.04/ROS-Jazzy OR Ubuntu-24.04/ROS-Kilted
